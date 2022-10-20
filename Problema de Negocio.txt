@@ -1,0 +1,11 @@
+Una empresa de alquiler de vehículos necesita aumentar sus ventas y para ello quieren crear un sitio web en el cual el cliente pueda hacer la reservación del vehículo.
+
+Para esto se plantean las siguientes reglas:
+
+1. De Lunes a Viernes la tarifa por día es de $100.000 para automovil, $150.000 para camioneta y $200.000 para vans, Sábados y Domingos por día un 30% más sobre la tarifa de cada vehiculo
+2. Un mismo cliente no puede tener dos reservas activas.
+3. El Sistema debe calcular la fecha de fin del alquiler y valor del alquiler.
+4. El cliente podra actualizar la fecha inicio del alquiler y se debe volver a calcular la fecha fin y el valor del alquiler
+
+Se debe crear un endpoint que permita crear las reservas, otro endpoint que permita consultar dichas reservaciones y
+por último un endpoint que permita modificar las fechas de las reservas.
